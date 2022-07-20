@@ -6,6 +6,13 @@ body {
 
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /*---------- header part start----------- */
 h1 {
     font-size: 50px;
@@ -15,8 +22,10 @@ h1 {
 .top-banner {
     display: flex;
     background-color: rgb(97, 92, 92);
-    margin: 5% 10%;
+    margin: 5% 0%;
     border: none;
+    width: 80%;
+    height: auto;
     border-radius: 8px;
 
 }
@@ -44,19 +53,18 @@ h1 {
 /*---------- Side menu start----------- */
 
 .all-blog {
-
     display: flex;
-    flex-direction: row;
-    
+
 }
+
 .side-menu {
+
     width: 312px;
     height: 270px;
     background-color: rgb(97, 92, 92);
     border-radius: 10px;
     border: none;
-    margin-left: 10%;
-    margin-right: 10px;
+    margin-right: 1%;
 
 }
 
@@ -68,7 +76,7 @@ h1 {
     border-radius: 9px;
     /* width: 262px;
     height: 64px; */
-    margin: 0px 20px 20px 20px;
+    margin: 20px;
     padding: 21px;
     font-weight: 700;
 }
@@ -95,7 +103,12 @@ h1 {
 
 }
 
+.blog-items {
 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
 
 
 
@@ -104,7 +117,7 @@ h1 {
     border: 1px solid #E8E8E8;
     border-radius: 0px 0px 10px 10px;
     margin-top: -3px;
-    
+
     width: 312px;
 }
 
@@ -117,7 +130,7 @@ h1 {
     border-radius: 5px;
 }
 
-.transfer-items{
+.transfer-items {
 
     margin: 10px;
 }
