@@ -1,0 +1,123 @@
+body {
+    margin: 0%;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/*---------- header part start----------- */
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.top-banner {
+    display: flex;
+    background-color: rgb(97, 92, 92);
+    margin: 5% 10%;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.banner-items {
+    color: white;
+    padding: 20px;
+}
+
+.button-style {
+
+    width: 187px;
+    height: 56px;
+    color: white;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+
+/*---------- header part end----------- */
+
+/*---------- Side menu start----------- */
+
+.all-blog {
+
+    display: flex;
+    flex-direction: row;
+    
+}
+.side-menu {
+    width: 312px;
+    height: 270px;
+    background-color: rgb(97, 92, 92);
+    border-radius: 10px;
+    border: none;
+    margin-left: 10%;
+    margin-right: 10px;
+
+}
+
+.menu-items {
+
+    background-color: white;
+    border: none;
+    text-align: center;
+    border-radius: 9px;
+    /* width: 262px;
+    height: 64px; */
+    margin: 0px 20px 20px 20px;
+    padding: 21px;
+    font-weight: 700;
+}
+
+.menu-item-special {
+    background-color: red;
+    border: none;
+    text-align: center;
+    border-radius: 9px;
+    margin: 20px;
+    padding: 21px;
+    font-weight: 700;
+}
+
+.menu-bar {
+    text-decoration: none;
+    color: black;
+
+}
+
+.menu-bar-special {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+
+.blog-item {
+    box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -3px;
+    
+    width: 312px;
+}
+
+
+
+.transfer-option {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+
+.transfer-items{
+
+    margin: 10px;
+}
