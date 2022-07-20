@@ -36,7 +36,8 @@ h1 {
 }
 
 .button-style:hover {
-    width: 50%;
+    height: 70px;
+    width: 250px;
 
 
 }
@@ -52,7 +53,7 @@ h1 {
     font-weight: 700;
     border-radius: 10px;
     border: none;
-    transition-delay: 1s;
+    transition: 2s;
 }
 
 /*---------- header part end----------- */
