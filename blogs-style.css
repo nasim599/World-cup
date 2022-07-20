@@ -35,6 +35,12 @@ h1 {
     padding: 20px;
 }
 
+.button-style:hover {
+    width: 50%;
+
+
+}
+
 .button-style {
 
     width: 187px;
@@ -46,6 +52,21 @@ h1 {
     font-weight: 700;
     border-radius: 10px;
     border: none;
+    transition-delay: 1s;
+}
+
+.button-style {
+
+    width: 187px;
+    height: 56px; 
+    color: white;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    transition-delay: 1s;
 }
 
 /*---------- header part end----------- */
@@ -101,6 +122,7 @@ h1 {
 
 }
 
+/* ------------blog-items------------ */
 .blog-items {
 
     display: grid;
