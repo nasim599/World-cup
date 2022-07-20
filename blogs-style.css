@@ -189,6 +189,26 @@ hr {
 
     }
 
+    .side-menu {
+        background-color: white;
+
+    }
+
+    .menu-items {
+        border: 1px solid gray;
+    }
+
+    .blog-items {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cotact-style {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
 
 
 }
@@ -222,6 +242,11 @@ hr {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cotact-style {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 
 }
